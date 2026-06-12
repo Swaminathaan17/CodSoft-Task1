@@ -16,7 +16,3 @@ The projects showcase my skills in HTML, CSS, JavaScript, responsive web design,
 * CSS3
 * JavaScript
 * Git & GitHub
-
-## Author
-
-**Swaminathaan M**
