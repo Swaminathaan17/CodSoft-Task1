@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Swaminathaan M — CSE Student & Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="Task 1.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#home" class="nav-brand">
+    <!-- STYLISH S LOGO — only here -->
+    <div class="s-logo">
+      <svg viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="sgrad" x1="0" y1="0" x2="38" y2="38" gradientUnits="userSpaceOnUse">
+            <stop offset="0%"   stop-color="#4f8ef7"/>
+            <stop offset="55%"  stop-color="#8b5cf6"/>
+            <stop offset="100%" stop-color="#22d3ee"/>
+          </linearGradient>
+          <linearGradient id="bggrad" x1="0" y1="0" x2="38" y2="38" gradientUnits="userSpaceOnUse">
+            <stop offset="0%"   stop-color="#0f1829"/>
+            <stop offset="100%" stop-color="#12112a"/>
+          </linearGradient>
+        </defs>
+        <!-- background rounded square -->
+        <rect width="38" height="38" rx="9" fill="url(#bggrad)"/>
+        <!-- gradient border -->
+        <rect x="0.75" y="0.75" width="36.5" height="36.5" rx="8.3" fill="none" stroke="url(#sgrad)" stroke-width="1.2" opacity="0.7"/>
+        <!-- S glyph — hand-crafted path for sharp, stylish look -->
+        <text x="50%" y="51%" dominant-baseline="middle" text-anchor="middle"
+              font-family="'Inter', -apple-system, sans-serif"
+              font-size="22" font-weight="800" font-style="italic"
+              fill="url(#sgrad)">S</text>
+        <!-- small accent dot -->
+        <circle cx="29" cy="9" r="2.2" fill="#4f8ef7" opacity="0.85"/>
+      </svg>
+    </div>
+    <div class="nav-brand-text">
+      <span class="nav-brand-name">Swaminathaan M</span>
+      <span class="nav-brand-sub">CSE · 2nd Year · CIT</span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#resume">Resume</a></li>
+    <li><a href="#contact" class="nav-cta">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- ═══════════ HERO ═══════════ -->
+<section id="home">
+  <div class="hero-inner">
+
+    <div class="hero-badge">
+      <span class="hero-badge-dot"></span>
+      Open to internships &amp; collaborations
+    </div>
+
+    <p class="hero-greeting">
+      <span>Hello, world!</span> &nbsp;—&nbsp; I'm
+    </p>
+    <h1 class="hero-name">
+      <span class="first">Swamina-</span> <br>
+      <span class="last">thaan M</span>
+    </h1>
+
+    <div class="hero-title-row">
+      <span class="hero-title">Python Developer &nbsp;/&nbsp; <span class="highlight">Full Stack Dev</span> &nbsp;/&nbsp; Problem Solver</span>
+    </div>
+
+    <p class="hero-desc">
+      2nd year <strong>Computer Science student</strong> at Chennai Institute of Technology.
+      I love turning ideas into real software — I've built <strong>15 projects</strong> (all on GitHub),
+      and I'm always hunting for the next problem worth solving.
+    </p>
+
+    <div class="hero-actions">
+      <a href="#projects" class="btn-primary">
+        <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        View My Projects
+      </a>
+      <a href="https://github.com/Swaminathaan17" target="_blank" rel="noopener" class="btn-outline">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.483 0-.237-.009-.868-.013-1.703-2.782.605-3.369-1.342-3.369-1.342-.454-1.154-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.934.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .268.18.58.688.482A10.019 10.019 0 0022 12c0-5.523-4.477-10-10-10z"/></svg>
+        GitHub Profile
+      </a>
+    </div>
+
+    <div class="hero-tags">
+      <span class="tag blue">Python</span>
+      <span class="tag violet">React</span>
+      <span class="tag cyan">Node.js</span>
+      <span class="tag green">DSA</span>
+      <span class="tag">MySQL</span>
+      <span class="tag">Git</span>
+    </div>
+  </div>
+
+  <!-- Floating code snippet -->
+  <div class="hero-code-window">
+    <div class="code-titlebar">
+      <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+      <span class="code-filename">about_me.py</span>
+    </div>
+    <div class="code-body">
+<span class="c-purple">class</span> <span class="c-blue">Developer</span><span class="c-white">:</span><br>
+&nbsp;&nbsp;<span class="c-purple">def</span> <span class="c-green">__init__</span><span class="c-white">(</span><span class="c-orange">self</span><span class="c-white">):</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="c-orange">self</span><span class="c-white">.</span><span class="c-cyan">name</span> <span class="c-white">=</span> <span class="c-yellow">"Swaminathaan M"</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="c-orange">self</span><span class="c-white">.</span><span class="c-cyan">year</span> <span class="c-white">=</span> <span class="c-yellow">"2nd Year CSE"</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="c-orange">self</span><span class="c-white">.</span><span class="c-cyan">college</span> <span class="c-white">=</span> <span class="c-yellow">"CIT Chennai"</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="c-orange">self</span><span class="c-white">.</span><span class="c-cyan">projects</span> <span class="c-white">= </span><span class="c-blue">10</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="c-orange">self</span><span class="c-white">.</span><span class="c-cyan">loves</span> <span class="c-white">= [</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c-yellow">"building things"</span><span class="c-white">,</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c-yellow">"solving problems"</span><span class="c-white">,</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c-yellow">"open source"</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="c-white">]</span><br>
+<br>
+&nbsp;&nbsp;<span class="c-purple">def</span> <span class="c-green">status</span><span class="c-white">(</span><span class="c-orange">self</span><span class="c-white">):</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="c-purple">return</span> <span class="c-yellow">"Always learning 🚀"</span><br>
+<br>
+<span class="c-white">me = </span><span class="c-blue">Developer</span><span class="c-white">()</span><span class="cursor"></span>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ ABOUT ═══════════ -->
+<section id="about">
+  <p class="sec-label">// who am i</p>
+  <h2 class="sec-title">About Me</h2>
+  <p class="sec-sub">A quick look at the person behind the keyboard.</p>
+
+  <div class="about-grid">
+    <div class="about-left">
+      <div class="about-info-blocks">
+        <div class="info-block">
+          <span class="info-block-icon">🎓</span>
+          <div>
+            <div class="info-block-label">College</div>
+            <div class="info-block-value">Chennai Institute of Technology</div>
+          </div>
+        </div>
+        <div class="info-block">
+          <span class="info-block-icon">📚</span>
+          <div>
+            <div class="info-block-label">Degree &amp; Year</div>
+            <div class="info-block-value">B.E. Computer Science — <span>2nd Year</span></div>
+          </div>
+        </div>
+        <div class="info-block">
+          <span class="info-block-icon">📍</span>
+          <div>
+            <div class="info-block-label">Location</div>
+            <div class="info-block-value">Chennai, Tamil Nadu 🇮🇳</div>
+          </div>
+        </div>
+        <div class="info-block">
+          <span class="info-block-icon">💼</span>
+          <div>
+            <div class="info-block-label">Status</div>
+            <div class="info-block-value"><span>Open</span> to internships &amp; collabs</div>
+          </div>
+        </div>
+        <div class="info-block">
+          <span class="info-block-icon">🐙</span>
+          <div>
+            <div class="info-block-label">GitHub</div>
+            <div class="info-block-value"><span>15 projects</span> and counting…</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-right">
+      <p class="about-bio">
+        Hey! I'm <strong>Swaminathaan M</strong>, a passionate CS student from Chennai who genuinely
+        loves writing code. I got into programming because I wanted to <strong>build things that
+        actually work</strong> — and I haven't stopped since.
+      </p>
+      <p class="about-bio">
+        My primary language is <strong>C++</strong>, and I've been expanding into full-stack
+        development — building web apps end to end with modern tools. I enjoy competitive
+        problem-solving and spend time on <strong>DSA practice</strong> to sharpen my thinking.
+      </p>
+      <p class="about-bio">
+        All 10 of my projects live on GitHub — ranging from scripts and automation tools to
+        full web applications. Each one taught me something new. I'm actively looking for
+        <strong>internship opportunities</strong> where I can contribute, learn fast, and grow
+        alongside a real team.
+      </p>
+
+      <div class="about-stats">
+        <div class="stat-card">
+          <div class="num">10</div>
+          <div class="lbl">GitHub Projects</div>
+        </div>
+        <div class="stat-card">
+          <div class="num">2nd</div>
+          <div class="lbl">Year CSE</div>
+        </div>
+        <div class="stat-card">
+          <div class="num">∞</div>
+          <div class="lbl">Curiosity</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ SKILLS ═══════════ -->
+<section id="skills">
+  <p class="sec-label">// what i work with</p>
+  <h2 class="sec-title">Skills &amp; Technologies</h2>
+  <p class="sec-sub">Tools and languages I use to bring ideas to life.</p>
+
+  <div class="skills-wrapper">
+    <div>
+      <div class="skill-group-title">Languages</div>
+      <div class="skills-grid">
+        <div class="skill-pill primary"><span class="skill-dot dot-blue"></span>Python</div>
+        <div class="skill-pill primary"><span class="skill-dot dot-yellow"></span>JavaScript</div>
+        <div class="skill-pill primary"><span class="skill-dot dot-blue"></span>HTML &amp; CSS</div>
+        <div class="skill-pill primary"><span class="skill-dot dot-cyan"></span>C / C++</div>
+        <div class="skill-pill primary"><span class="skill-dot dot-blue"></span>SQL</div>
+      </div>
+    </div>
+
+    <div>
+      <div class="skill-group-title">Frameworks &amp; Libraries</div>
+      <div class="skills-grid">
+        <div class="skill-pill secondary"><span class="skill-dot dot-cyan"></span>React</div>
+        <div class="skill-pill secondary"><span class="skill-dot dot-green"></span>Node.js</div>
+        <div class="skill-pill secondary"><span class="skill-dot dot-green"></span>Express.js</div>
+        <div class="skill-pill secondary"><span class="skill-dot dot-violet"></span>Flask</div>
+        <div class="skill-pill secondary"><span class="skill-dot dot-violet"></span>Tailwind CSS</div>
+      </div>
+    </div>
+
+    <div>
+      <div class="skill-group-title">Tools &amp; Concepts</div>
+      <div class="skills-grid">
+        <div class="skill-pill tertiary"><span class="skill-dot dot-cyan"></span>Git &amp; GitHub</div>
+        <div class="skill-pill tertiary"><span class="skill-dot dot-blue"></span>MySQL</div>
+        <div class="skill-pill tertiary"><span class="skill-dot dot-yellow"></span>REST APIs</div>
+        <div class="skill-pill tertiary"><span class="skill-dot dot-green"></span>Data Structures</div>
+        <div class="skill-pill tertiary"><span class="skill-dot dot-violet"></span>Algorithms</div>
+        <div class="skill-pill tertiary"><span class="skill-dot dot-cyan"></span>VS Code</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ PROJECTS ═══════════ -->
+<section id="projects">
+  <p class="sec-label">// things i've built</p>
+  <h2 class="sec-title">Projects</h2>
+  <p class="sec-sub">10 projects on GitHub — here are a few highlights. Replace these with your real ones!</p>
+
+  <div class="projects-grid">
+
+    <div class="project-card">
+      <div class="project-header">
+        <div class="project-icon-wrap" style="background:rgba(79,142,247,0.12);">🤖</div>
+        <div class="project-links">
+          <a href="https://github.com/Swaminathaan17" target="_blank" class="project-link-btn" title="GitHub">GH</a>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="project-title">Python Automation Bot</div>
+        <p class="project-desc">A script that automates repetitive tasks — file organisation, email parsing, and web scraping — saving hours of manual work.</p>
+        <div class="project-techs">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">BeautifulSoup</span>
+          <span class="tech-tag">Selenium</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-header">
+        <div class="project-icon-wrap" style="background:rgba(139,92,246,0.12);">🛒</div>
+        <div class="project-links">
+          <a href="https://github.com/Swaminathaan17" target="_blank" class="project-link-btn" title="GitHub">GH</a>
+          <a href="#" class="project-link-btn" title="Live Demo">↗</a>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="project-title">Full Stack E-Commerce App</div>
+        <p class="project-desc">A complete shopping web app with product listing, cart, user auth, and order management. Built end-to-end solo.</p>
+        <div class="project-techs">
+          <span class="tech-tag">React</span>
+          <span class="tech-tag">Node.js</span>
+          <span class="tech-tag">Express</span>
+          <span class="tech-tag">MySQL</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-header">
+        <div class="project-icon-wrap" style="background:rgba(34,211,238,0.1);">📊</div>
+        <div class="project-links">
+          <a href="https://github.com/Swaminathaan17" target="_blank" class="project-link-btn" title="GitHub">GH</a>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="project-title">Student Result Analyser</div>
+        <p class="project-desc">A Python tool that reads exam result CSVs, computes statistics, and generates visual reports — useful for college departments.</p>
+        <div class="project-techs">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Pandas</span>
+          <span class="tech-tag">Matplotlib</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-header">
+        <div class="project-icon-wrap" style="background:rgba(16,185,129,0.1);">💬</div>
+        <div class="project-links">
+          <a href="https://github.com/Swaminathaan17" target="_blank" class="project-link-btn" title="GitHub">GH</a>
+          <a href="#" class="project-link-btn" title="Live Demo">↗</a>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="project-title">Real-Time Chat App</div>
+        <p class="project-desc">A WebSocket-based chat application with rooms, live typing indicators, and message history stored in a database.</p>
+        <div class="project-techs">
+          <span class="tech-tag">Node.js</span>
+          <span class="tech-tag">Socket.io</span>
+          <span class="tech-tag">React</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-header">
+        <div class="project-icon-wrap" style="background:rgba(251,191,36,0.1);">🧮</div>
+        <div class="project-links">
+          <a href="https://github.com/Swaminathaan17" target="_blank" class="project-link-btn" title="GitHub">GH</a>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="project-title">DSA Visualiser</div>
+        <p class="project-desc">An interactive web tool that visually demonstrates sorting algorithms and data structures — great for learning and teaching.</p>
+        <div class="project-techs">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">JavaScript</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-header">
+        <div class="project-icon-wrap" style="background:rgba(244,63,94,0.1);">🔗</div>
+        <div class="project-links">
+          <a href="https://github.com/Swaminathaan17" target="_blank" class="project-link-btn" title="GitHub">GH</a>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="project-title">URL Shortener API</div>
+        <p class="project-desc">A Flask-based REST API to shorten URLs with custom aliases, click tracking, and a simple dashboard to manage links.</p>
+        <div class="project-techs">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Flask</span>
+          <span class="tech-tag">SQLite</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- GitHub banner -->
+  <div class="github-banner">
+    <div class="github-banner-left">
+      <div class="gh-icon">🐙</div>
+      <div class="github-banner-text">
+        <div class="title">See all 10 projects on GitHub</div>
+        <div class="sub">Source code, READMEs, and more — all open.</div>
+      </div>
+    </div>
+    <a href="https://github.com/Swaminathaan17" target="_blank" rel="noopener" class="btn-outline">
+      Visit GitHub Profile &nbsp;→
+    </a>
+  </div>
+</section>
+
+<!-- RESUME -->
+<section id="resume">
+  <p class="sec-label">// my resume</p>
+  <h2 class="sec-title">Download CV</h2>
+  <div class="resume-card">
+    <div class="resume-left">
+      <p>A single-page PDF with my education, skills, projects, and contact details — ready to share with recruiters or internship teams.</p>
+    </div>
+    <a href="resume.pdf" download class="btn-resume">
+      <svg width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+        <path d="M12 3v13M7 11l5 5 5-5M3 19h18" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      Download Resume PDF
+    </a>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <p class="sec-label">// get in touch</p>
+  <h2 class="sec-title">Contact Me</h2>
+  <p class="sec-sub">Have a project idea, internship offer, or just want to say hi? I'd love to hear from you.</p>
+
+  <div class="contact-grid">
+    <div class="contact-info">
+      <a href="m.akshay1709@gmail.com" class="contact-card">
+        <div class="contact-card-icon" style="background:rgba(79,142,247,0.12);">✉️</div>
+        <div>
+          <div class="contact-card-label">Email</div>
+          <div class="contact-card-value">m.akshay1709@gmail.com</div>
+        </div>
+      </a>
+      <a href="tel:+917338755317" class="contact-card">
+        <div class="contact-card-icon" style="background:rgba(16,185,129,0.12);">📞</div>
+        <div>
+          <div class="contact-card-label">Phone</div>
+          <div class="contact-card-value">+91 7338755317</div>
+        </div>
+      </a>
+      <a href="https://github.com/Swaminathaan17" target="_blank" class="contact-card">
+        <div class="contact-card-icon" style="background:rgba(139,92,246,0.12);">🐙</div>
+        <div>
+          <div class="contact-card-label">GitHub</div>
+          <div class="contact-card-value">github.com</div>
+        </div>
+      </a>
+      <a href="https://www.linkedin.com/in/swaminathaan-m-125628363/" target="_blank" class="contact-card">
+        <div class="contact-card-icon" style="background:rgba(34,211,238,0.1);">💼</div>
+        <div>
+          <div class="contact-card-label">LinkedIn</div>
+          <div class="contact-card-value">linkedin.com/</div>
+        </div>
+      </a>
+    </div>
+
+    <div class="contact-form">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="fname">Name</label>
+          <input type="text" id="fname" placeholder="Your name"/>
+        </div>
+        <div class="form-group">
+          <label for="femail">Email</label>
+          <input type="email" id="femail" placeholder="your@email.com"/>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="fsubject">Subject</label>
+        <input type="text" id="fsubject" placeholder="Internship / Collab / Just saying hi"/>
+      </div>
+      <div class="form-group">
+        <label for="fmsg">Message</label>
+        <textarea id="fmsg" placeholder="Tell me more…"></textarea>
+      </div>
+      <button type="button" class="btn-send">
+        <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path d="M22 2L11 13M22 2L15 22l-4-9-9-4 20-7z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Send Message
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-left">
+    <p class="footer-copy">© 2026 <span>Swaminathaan M</span> — Built with HTML &amp; CSS only</p>
+  </div>
+  <div class="footer-links">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="footer-socials">
+    <a href="https://github.com/Swaminathaan17" target="_blank" class="social-btn" title="GitHub">GH</a>
+    <a href="https://www.linkedin.com/in/swaminathaan-m-125628363/" target="_blank" class="social-btn" title="LinkedIn">in</a>
+  </div>
+</footer>
+
+</body>
+</html>
