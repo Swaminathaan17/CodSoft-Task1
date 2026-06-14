@@ -1,18 +1,35 @@
-# 🚀 CODSOFT Internship Projects
+# 🌐 Personal Portfolio Website
 
-This repository contains projects completed during the CodSoft Internship Program.
+A responsive and modern Portfolio Website built using HTML and CSS to showcase my skills, projects, and achievements as a web developer.
 
-The projects showcase my skills in HTML, CSS, JavaScript, responsive web design, and front-end development. Each project focuses on building modern, user-friendly, and interactive web applications while improving problem-solving and development skills.
+## 📌 Project Overview
 
-## Projects
+This portfolio website serves as my personal online presence, highlighting my technical skills, projects, education, and contact information. The website is designed with a clean and user-friendly interface to provide visitors with a professional overview of my work.
 
-* Personal Portfolio Website
-* Landing Page
-* Calculator
+## ✨ Features
 
-## Technologies Used
+* Responsive Design
+* Modern User Interface
+* About Me Section
+* Skills Showcase
+* Projects Section
+* Contact Information
+* Smooth Navigation
+* Clean and Organized Layout
+
+## 🛠️ Technologies Used
 
 * HTML5
 * CSS3
-* JavaScript
-* Git & GitHub
+
+## 🎯 Learning Outcomes
+
+* Creating responsive web layouts
+* Building a personal portfolio website
+* Improving HTML structure and semantics
+* Styling with CSS
+* Enhancing UI/UX design skills
+
+## 📜 License
+
+This project was developed as part of the CodSoft Web Development Internship and is intended for educational purposes.
